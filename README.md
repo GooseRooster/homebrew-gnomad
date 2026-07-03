@@ -17,4 +17,4 @@ The following tools must be in your PATH — they are not installed automaticall
 |------|---------|
 | `git` | system package manager |
 | `tinty` | `brew install tinted-theming/tinted/tinty` |
-| `gowall` | see [gowall releases](https://github.com/Goose-Bomb/gowall) |
+| `gowall` | `brew install gowall` |
