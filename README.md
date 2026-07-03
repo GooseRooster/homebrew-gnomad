@@ -17,4 +17,4 @@ The following tools must be in your PATH — they are not installed automaticall
 |------|---------|
 | `git` | system package manager |
 | `tinty` | `brew install tinted-theming/tinted/tinty` |
-| `gowall` | `brew install gowall` |
+| `gowall` | `brew install gowall` if you intend on using wallpaper features (optional)|
