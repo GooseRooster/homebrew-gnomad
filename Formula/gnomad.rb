@@ -5,9 +5,9 @@ class Gnomad < Formula
   version "0.4.0"
 
   # Runtime dependencies (not managed by Homebrew — must be in PATH):
-  #   git    — clones/updates the tinted-theming/schemes repo on first run
-  #   tinty  — applies base16/base24 theme changes (brew install tinted-theming/tinted/tinty)
-  #   gowall — converts wallpapers to the active colour scheme
+  #   git — clones/updates the tinted-theming/schemes repo on first run
+  depends_on "tinted-theming/tinted/tinty"
+  depends_on "gowall"
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?

@@ -11,10 +11,10 @@ brew install GooseRooster/gnomad/gnomad
 
 ## Runtime prerequisites
 
-The following tools must be in your PATH — they are not installed automatically:
-
 | Tool | Install |
 |------|---------|
-| `git` | system package manager |
-| `tinty` | `brew install tinted-theming/tinted/tinty` |
-| `gowall` | `brew install gowall` if you intend on using wallpaper features (optional)|
+| `git` | not installed automatically — install via your system package manager |
+| `tinty` | installed automatically (hard dependency, from the `tinted-theming/tinted` tap) |
+| `gowall` | installed automatically (hard dependency) |
+
+Wallpaper features are opt-in: set `wallpaper_enabled = true` in `~/.config/gnomad/config.toml` to enable them.
