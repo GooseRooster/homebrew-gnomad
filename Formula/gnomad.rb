@@ -2,7 +2,7 @@ class Gnomad < Formula
   desc "A lightweight TUI for managing tinted color schemes in the GNOME shell"
   homepage "https://github.com/GooseRooster/gnomad"
   license "GPL-3.0-or-later"
-  version "0.4.6"
+  version "0.5.0"
 
   # Runtime dependencies (not managed by Homebrew — must be in PATH):
   #   git — clones/updates the tinted-theming/schemes repo on first run
@@ -11,11 +11,11 @@ class Gnomad < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/GooseRooster/gnomad/releases/download/v0.4.6/gnomad-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8212756519e5eb648968667a7a3187144feb38a4cd344689f24460600df9bc24"
+      url "https://github.com/GooseRooster/gnomad/releases/download/v0.5.0/gnomad-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "247592f3d14a9a1e5c77a3e55adccaf88b3a6869a438f4d598cab92f64d26380"
     elsif Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/GooseRooster/gnomad/releases/download/v0.4.6/gnomad-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e37e85e0abcf4867030bebe04ab3c0452504e6353e0264cd57a9a1978914eb68"
+      url "https://github.com/GooseRooster/gnomad/releases/download/v0.5.0/gnomad-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "59dfbcbaf323097ab79f36a599b98bca2f35a0386fb3feb93153d97e724c0d42"
     end
   end
 
